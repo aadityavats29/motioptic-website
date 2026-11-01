@@ -347,7 +347,8 @@ function M(e2) {
       i2.current = new A({ duration: (n2 || 10) / 10 });
       let e3 = (t3) => {
         if (i2.current) try {
-          i2.current.raf(t3), requestAnimationFrame(e3);
+          i2.current.raf(t3);
+          t2 = requestAnimationFrame(e3);
         } catch (e4) {
           console.error(`Error in animation frame:`, e4);
         }

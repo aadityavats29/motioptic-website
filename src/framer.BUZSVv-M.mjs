@@ -53,7 +53,7 @@ function lt(e2) {
 function ut(e2, t2) {
   let n2 = t2 instanceof Error ? t2.stack ?? t2.message : t2;
   return `${e2 ? `${e2}
-` : ``}In case the issue persists, report this to the Framer team via https://www.framer.com/contact/${n2 ? `:
+` : ``}If the issue persists, contact Motioptic${n2 ? `:
 ${n2}` : `.`}`;
 }
 function dt() {
