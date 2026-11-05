@@ -1,0 +1,421 @@
+Motioptic Website — Fix List for Developer
+Nov 2, 2026 · @Hyder
+Summary
+The site looks good, but most of its words still come from the template it was built on. Real project names sit on top of another agency's case-study text, the testimonials are invented, and some numbers contradict each other. A client who reads past the homepage will notice.
+The five fixes that matter most:
+Replace all 7 case-study pages' text. Each one describes a different, fictional company (Agencify, Antony, ZCF, Candreva, Sotto, Tesla, Bruno) and quotes made-up results like "60% more inquiries". The Monkeflow page claims Tesla was the client.
+Remove the fake testimonials. "Nathan Drake" is a video game character, "Oglivy BM", "Bruno" and "Aixor" are template brands, and the Thomas J. Watson quote is a famous IBM line, not a client review.
+Hide the blog until there are real posts. All 7 posts are template text, one has a made-up author, and one is a copy of a case study.
+Fix the numbers. The stats show different values to Google (30+, 100+, 10) than to visitors (54+, 132+, 99). Use one set of real numbers.
+Rewrite the headline copy in plain words (Copy rewrites has ready-to-paste text) and fix the typos ("satisfication", "DETAILSS", "Yours satisfication is my reputation").
+This brief covers all 24 pages on motioptic.com as of today: home, the services overview and 4 service pages, the works index and 7 case studies, the blog index and 7 posts, contact and 404.
+Dummy and template content
+18 of the 24 pages still carry template text, fake names or fake results. Only the 4 service detail pages, contact and 404 are free of fake content, though they still need the copy fixes below.
+Page
+URL
+What's fake
+Action
+Content Army case study
+/works/agencify
+Body text is about "Agencify", a design agency. Cites a 60% rise in inquiries for "Studio Vibe". Text is garbled ("more bold missions", "design a agency"). Cover image is the Agencify template mockup.
+Rewrite with the real Content Army project; replace cover; change URL to /works/content-army
+BIOV8 case study
+/works/antony
+Text is about "ANTONY", a design agency. Same "Studio Vibe 60%" claim. Cover image (red bottles) looks real.
+Rewrite with the real BIOV8 project; change URL to /works/biov8
+ELVIS case study
+/works/zcf
+Text is about "ZCF", a creative agency. Claims inquiries rose 45%.
+Rewrite; change URL to /works/elvis
+Duradry case study
+/works/candreva
+Text is about "Candreva". The Final Performance paragraph is a copy of the paragraph above it. Cover is a "Digital Portfolio" template mockup.
+Rewrite; replace cover; change URL to /works/duradry
+Littledata case study
+/works/sotto
+Text is about "SOTTO", a boutique agency. Claims a 2× increase in inquiries and quotes clients. Cover shows the word "sottozero".
+Rewrite; replace cover; change URL to /works/littledata
+Monkeflow case study
+/works/tesla
+Text says Tesla's design team was the client and claims engagement nearly tripled. Cover is a Tesla app mockup.
+Remove the Tesla claims now (legal risk); rewrite; replace cover; change URL to /works/monkeflow
+Markowate case study
+/works/bruno
+Text describes "Bruno", a portfolio template. Cover shows "Bruno Anderson". Title is also misspelt (logo says Markovate).
+Rewrite; replace cover; fix spelling; change URL to /works/markovate
+All 7 case studies
+/works/*
+Subtitle "CREATIVE AGENCY REIMAGINED" and labels "Project Concept Label" and "Project Type" are template placeholders. Project type tags don't match the homepage tags (e.g. Content Army says Web Development on its page, Branding/Motion/Videography on the card).
+Replace with a real one-line summary per project; make tags match
+Testimonials
+Home, /works
+Thiago Alcatara (ABA JSC), Nathan Drake (Bruno), Lukas Franklin (Aixor), Andrew Robertson (Oglivy BM). Stock avatar photos and template brand logos.
+Delete all four. Add real quotes only (see Section audit)
+IBM quote
+Home, /services
+"Good design is good business", Thomas J. Watson, Chairman of IBM, shown in the testimonial slot.
+Remove, or move it out of the testimonials so it doesn't read as a client review
+Blog index
+/blogs
+Lists 7 template posts.
+Remove BLOG from the menu and unpublish until real posts exist
+UX Mistakes
+/blogs/ux-mistakes
+Author "Edward Grant" doesn't exist. Typos throughout.
+Unpublish
+User Flow
+/blogs/user-flow
+Body is the Agencify case study text, not an article about user flows.
+Unpublish
+Web Design Tips, Why Custom Websites, Logo Basics, Clean Layouts, Grid Play
+/blogs/web-design-tips, /why-custom-websites, /logo-basics, /clean-layout, /grid-play
+Generic template articles. Grid Play still shows "Project Concept Label".
+Unpublish
+FAQ (every page)
+sitewide
+Only two questions. The second one, "What kind of customization is available?", has no answer.
+Write 5–6 real questions and answers (see Copy rewrites)
+Services overview
+/services
+Five cards, each with a near-identical branding paragraph. The Web Development card describes branding. "APP UI" card reuses the Animation subtitle "Motion Video Interactive".
+Rewrite each card (see Copy rewrites)
+Footer LinkedIn "IN"
+sitewide
+Links to linkedin.com, not your company page.
+Point to linkedin.com/company/motioptic
+Stats
+Home
+Numbers in the page code (30+, 100+, 10) differ from the animated numbers (54+, 132+, 99). "Satisfaction percentage" shows 99 with no % sign.
+Confirm the real numbers; set both to the same values
+Client logos
+The homepage logo strip (under "Quality that slaps") shows 12 logos. 11 are readable brand names; one is an icon with no name. Owner to confirm each with a tick; the developer acts on the last column.
+#
+Logo
+Status
+Issue
+Action
+1
+Adam Kitchen
+Owner to confirm
+Image is a photo-style crop on a dark background, not a clean logo file
+Get a transparent PNG or SVG
+2
+BIOV8
+Matches a case study
+None
+Keep
+3
+Kunato.Ai
+Owner to confirm
+No case study
+Keep if real; consider a short case study
+4
+Loop
+Owner to confirm
+No case study
+Keep if real
+5
+F*ck the Plan
+Owner to confirm
+Profanity in the first logo row may put off corporate clients
+Owner's call: keep or move further down the strip
+6
+Duradry
+Matches a case study
+None
+Keep
+7
+Markovate
+Matches a case study
+Case study title spells it "Markowate"
+Fix the case-study title to Markovate
+8
+Lexus Tailoring & Stores
+Owner to confirm
+Detailed Arabic calligraphy is unreadable at strip size
+Use a simplified version or the wordmark only
+9
+Valerie
+Owner to confirm
+None
+Keep if real
+10
+Unnamed icon (purple, pink and orange shapes)
+Unidentified
+No brand name, so visitors can't tell who it is
+Owner to identify; use the full logo with wordmark, or remove
+11
+100°C
+Owner to confirm
+Sits on a white circle while the others are on dark; looks inconsistent
+Get a version without the white background
+12
+Magnet Monster
+Owner to confirm
+Red-on-dark has low contrast
+Get a light or white version
+Also check:
+Content Army, ELVIS, Littledata and Monkeflow have case studies but no logo in the strip. Add their logos if you have permission.
+Show all logos in one colour (all white, or all grey) so the strip looks consistent. Mixed full-colour logos look like a collage.
+The four small brand logos inside the testimonials (a white triangle mark, Bruno, Aixor Creative Studio, Oglivy Business Mentor) are all template images. Remove them with the testimonials.
+Only show a client logo if you have permission to use it.
+Copy rewrites: homepage
+Replace the current text with the new text below, word for word. Two rules for every page: write as "we" (the site switches between "I", "me" and "we"), and use sentence case for body text instead of all caps. Anything in [brackets] is for the owner to fill in.
+Section
+Current text
+New text
+Hero tagline
+DIGITAL BRAND EXPERIENCE STUDIO
+Branding, web and motion studio
+Hero line
+Brands shouldn't sit still. They should speak and connect. Where every frame has a purpose!
+We design brands, websites and animation for startups and growing businesses.
+Scrolling ticker
+AVAILABLE FOR NEW PROJECT · RESULT ON TIME DELIVERY · NDA AGREEMENT READY
+Taking on new projects · Delivered on time · Happy to sign an NDA
+Logo strip heading
+QUALITY THAT SLAPS, SAYS THEM NOT US
+Brands we've worked with
+Services list
+BRANDING Logo Design Graphic / Web & App Design UX Research UI/UX MARKETING / Web Development / Motion Video Interactive ANIMATION (labels sit under the wrong items)
+Branding — logos, identity, brand guidelines / UI/UX design — websites, apps, UX research / Web development — fast, responsive sites you can edit / Animation — motion graphics, video, interactions
+Featured works intro
+A curated selection of projects that reflect our commitment to simplicity and purposeful design.
+Selected projects across branding, web and motion.
+Hire-us block
+HIRE US / WEB DESIGN APP DESIGN WEB DEVELOPMENT
+Start a project (button links to /contact)
+About: services list
+VIDEOGRAPHY · UX UI · BRANDING · WEB-DESIGN · SOCIAL MEDIA MARKETING
+Branding · UI/UX design · Web development · Animation (match the four services you actually offer; add Videography or Social media only if they get their own service page)
+About: heading
+A TEAM OF CREATORS
+A small team of designers and animators
+About: paragraph
+We specialize in Art Direction and Branding, bringing a blend of creativity and strategy to every project. With extensive new-gen perspective and creativity, We ensure your vision comes to life seamlessly online.
+Motioptic is a design studio based in [city]. We help brands look right and move well, from the logo to the website to the launch video. Since [year] we've worked with [number] clients in [number] countries.
+Stat 1
+WORLDWIDE CLIENTS IN 15 COUNTRIES — 54+
+[54+] clients in [15] countries
+Stat 2
+PROJECTS COMPLETED — 132+
+[132+] projects delivered
+Stat 3
+SATISFACTION PERCENTAGE — 99
+Replace with something you can prove, e.g. "[X] years in business" or "[X] repeat clients". If you keep it, show it as 99%
+Testimonials heading
+Yours satisfication is my reputation, see what's client say
+What our clients say
+FAQ footer line
+Can't find the answer for your question? Contact me
+Still have a question? Get in touch.
+Closing CTA
+READY TO COLLABORATE? / Have a project in mind? / Let's create something extraordinary together
+Have a project in mind? / Tell us what you're building and we'll reply within [one working day].
+Footer
+©2025 MOTIOPTIC
+© 2026 Motioptic (set the year to update automatically)
+FAQ: replace the two current questions with these six.
+How much does a project cost? Branding starts at [amount], websites at [amount]. We'll send a fixed quote once we understand your project.
+How long does a project take? Branding takes [2–4] weeks, a website [4–8] weeks, depending on size.
+What do you need from me to start? A short brief: what you do, who it's for, and any examples you like. We'll take it from there on a first call.
+How many revisions are included? [Two] rounds at each stage. Extra rounds are billed by the hour.
+Do you work with clients outside [country]? Yes. We've worked with clients in [15] countries and run projects over video calls.
+What happens after launch? You get all source files. We offer [30 days] of free support, then optional monthly care.
+Copy rewrites: page headers, services and contact
+Page headers. Drop the ".PRO", ".INC", ".INS" and ".US" suffixes after page titles. They read as template decoration, and ".INC" suggests a registered company.
+Page
+Current text
+New text
+/services header
+SERVICE .PRO / UI DESIGN, PROTOTYPING & WEB DEVELOPMENT / I craft seamless digital experience that blend design precision with interactive functionality. I turn concepts into clean functional interfaces.
+Services / Branding, design, development and motion / Four things we do well, on their own or as one project.
+/works header
+WORKS .INC / CRAFTING PROJECTS THAT HAVE PURPOSE & DESIGN / Each project is designed to not just look good, but to work beautifully — merging thoughtful UX with bold visual storytelling.
+Work / Selected projects / Brands, websites and animation we've made for clients in [15] countries.
+/contact header
+CONTACT .US / LET'S CONNECT & CREATE MORE TOGETHER / I'm always open to new ideas, collaborations, and creative challenges. Whether you have a full brief or just a spark let's start the conversation.
+Contact / Tell us about your project / Send a few lines about what you need. We reply within [one working day].
+/404
+MISSING .404 / LOOKS LIKE YOU'VE TAKEN A WRONG TURN / …the rest of the site is full of creativity and ideas…
+Page not found / This page doesn't exist. / Back to the homepage
+Services overview cards (/services). Every card currently carries a near-identical paragraph about branding. Use these instead:
+Card
+New subtitle
+New paragraph
+Branding
+Logo, identity, guidelines
+We build a brand you can use everywhere: logo, colours, type and a simple guide so it stays consistent.
+UI/UX
+Website and app design
+We design screens that are easy to use and easy to build, from wireframes to a clickable Figma prototype.
+Web development
+Responsive websites
+We build fast, responsive sites that your team can update without calling us.
+Animation
+Motion, video, interactions
+We add motion where it helps: logo animations, explainer videos, scroll effects and micro-interactions.
+App UI
+Mobile and web apps
+We design app interfaces with a reusable component library, ready for your developers. (Or merge this card into UI/UX; it currently repeats the Animation subtitle.)
+Service detail pages. Rename the template section headings on all four pages: INTRODUCTION → What it is · DESIGNING METHOD → How we work · FINAL PERFORMANCE → What you get. Then:
+Branding (/services/branding): the text has many grammar errors ("how they feel, speak, and connects", "the visuals of a emotional identities", "a complete and thoughtful visual identity systems"). Replace the three paragraphs with:
+What it is: Your brand is how people recognise and remember you. We start by learning your story, your customers and your competitors, then design an identity that fits.
+How we work: We design a logo with primary, secondary and icon versions, pick your colours and fonts, and write a style guide with clear do's and don'ts. Revisions are included at every stage.
+What you get: Logo files in PNG, JPG, SVG and PDF, editable source files, and a brand guide with your fonts, colour codes (HEX, RGB, CMYK) and spacing rules. Depending on the package, we add social media headers, a favicon and mockups.
+UI/UX (/services/ui-ux): copy is fine. Remove "Adobe XD" (Adobe stopped developing it; say Figma only). Remove "A/B-tested UI variants" unless you actually run A/B tests.
+Web development (/services/web-development): copy is fine. Name the platform you build on (e.g. Framer, Webflow, custom code) so clients know what they're getting.
+Animation (/services/animation): copy is fine. "Lottie, or Motion" → "Lottie or Framer Motion".
+Contact form.
+Field
+Current
+New
+Email label
+YOUR EMAIL ID
+Email
+Service question
+WHAT CAN WE CREATE TOGETHER?
+What do you need?
+Service options
+Branding, Web design, Animation, App UI, Other
+Branding, UI/UX design, Web development, Animation, Not sure yet
+New field
+(none)
+Budget (dropdown: [under X] / [X–Y] / [Y+] / Not sure)
+New field
+(none)
+When do you want to start?
+Button
+SEND REQUEST
+Send
+After submit
+(check what shows)
+Thanks, we'll reply within [one working day].
+Case studies
+All 7 case studies need new text written from the real projects; none of the current text can be kept. Until the owner supplies it, the fastest safe fix is to keep each page's title and images and replace the body with a short placeholder: one line on the client, the services delivered, and the project gallery.
+Owner fills in, per project (a few lines each is enough):
+☐ Content Army
+☐ BIOV8
+☐ ELVIS
+☐ Duradry
+☐ Littledata
+☐ Monkeflow
+☐ Markovate
+For each one: who the client is (one line), what they needed, what you delivered, 6–10 real images or video of the work, and one real result only if you can back it up (launch date, live URL, a number the client shared, or a quote they approved).
+Developer builds each page as:
+Title + one-line summary (replaces "CREATIVE AGENCY REIMAGINED")
+Client, Year, Services, Live link (replaces "Project Concept Label" / "Project Type")
+The brief: 2–3 sentences
+What we did: 2–3 sentences, then the image gallery
+Result: one line, only if real
+Next project link
+Other case-study fixes:
+Change every URL slug to the project name (table in Dummy and template content). Set 301 redirects from the old slugs so shared links keep working.
+Make each page's service tags match its homepage card.
+The homepage shows 7 projects but /works shows only 5 (ELVIS and Markowate are missing). Show the same set on both.
+Lead with your two or three strongest projects; BIOV8 has the most finished-looking imagery right now.
+Section-by-section audit
+The visual style is strong; the gaps are in proof (real work, real clients), search visibility and a few broken details. Sorted by page order, then sitewide items.
+Area
+What's wrong
+Suggestion
+Priority
+Hero
+No button in the first screen. The brand name is split across two lines (MOTI / OPTIC) and repeats the logo above it. For a motion studio, nothing moves except a rotating badge.
+Add two buttons: "See our work" and "Start a project". Put a 15–30 second showreel or looping project clips behind or beside the headline.
+High
+Scrolling ticker
+Reads as broken English ("RESULT ON TIME DELIVERY")
+Use the rewrite in Copy rewrites, or remove
+Medium
+Logo strip
+12 logos in mixed colours and backgrounds; one unidentified; no alt text
+Fix per the Client logos table; same colour for all; add each brand's name as alt text
+High
+Services (home)
+Category labels sit under the wrong items (MARKETING appears under UI/UX). No short description per service.
+Four clean cards, each with a one-line description and a link to its page
+Medium
+Featured works
+7 projects, most with template text and template cover images behind them
+Show only projects with real content; 4–6 strong ones beat 7 weak ones
+High
+About
+Lists Videography and Social media marketing, which have no service page. Generic paragraph. No people.
+Match the list to your real services. Add a team photo or founder names and roles; clients hire people.
+Medium
+Stats
+Two different sets of numbers (see Dummy content). "Satisfaction percentage 99" can't be checked. A lone LinkedIn button floats under the stats.
+Keep two or three numbers you can stand behind. Move LinkedIn to the footer.
+High
+Testimonials
+All fake (see Dummy content)
+Remove the section until you have 2–3 real quotes with name, role, company and photo. LinkedIn recommendations and old client emails are good sources; ask permission.
+High
+FAQ
+Repeated on every page, including case studies; one answer missing
+Show on home and contact only, using the six new questions
+Medium
+Menu
+Hidden behind an icon; links to the template blog; shows a Gmail address
+Remove Blog; use a domain email such as hello@motioptic.com
+Medium
+Footer
+Only a broken LinkedIn "IN" link and ©2025. No page links, email or other socials.
+Add page links, email, LinkedIn (company page), and Instagram / Behance / Dribbble if you post work there
+Medium
+Contact page
+No email or response time shown; form delivery untested
+Show the email beside the form; submit a test enquiry and confirm it arrives
+High
+Search (SEO)
+The page code that Google first reads has no text: every page's content loads by script. All pages share the title "MOTIOPTIC", with no meta description, no share image and no H1 heading.
+Turn on server-side rendering / static export in the site builder; give each page a unique title and description (e.g. "Branding Services — Motioptic"); add a share image; make the main heading an H1. Check in Google Search Console.
+High
+Accessibility
+Vertical text such as C-O-N-T-A-C-T is built from separate letters, so screen readers spell it out. Logos and many images have no alt text. Long body text in all caps is hard to read.
+Add an accessible label to the vertical buttons; add alt text; use sentence case for paragraphs
+Medium
+Speed
+Some cover images are large PNGs (e.g. 4000×3000 px)
+Export as WebP, max 2000 px wide; lazy-load below the first screen
+Medium
+Legal
+The contact form collects names and emails, but there's no privacy policy
+Add a short privacy policy page linked in the footer
+Medium
+Tracking
+No analytics script found on the site
+Add Google Analytics or Plausible, and track contact form submissions
+Low
+Developer checklist
+Work top to bottom. The first group can go live today without waiting on the owner.
+Now (no owner input needed)
+☐ Remove all Tesla references from /works/tesla
+☐ Delete the four testimonials and their template brand logos; remove the IBM quote from the testimonial slot
+☐ Remove BLOG from the menu and unpublish /blogs and all 7 posts
+☐ Replace each case study body with the short placeholder (title, services, gallery); remove all invented results
+☐ Fix "Markowate" → "Markovate"
+☐ Apply the homepage and page-header copy rewrites (leave [bracketed] items for the owner)
+☐ Fix typos and switch "I / me" to "we" sitewide
+☐ Point the footer LinkedIn link to linkedin.com/company/motioptic
+☐ Make the copyright year automatic
+☐ Show ELVIS and Markovate on /works so it matches the homepage
+Next (needs owner input)
+☐ Confirm the logo list; swap in clean logo files; identify or remove logo #10
+☐ Set the real stats in both places (page code and animation)
+☐ Write the 7 case studies from the owner's notes; replace template cover images; rename slugs and add redirects
+☐ Fill the [bracketed] details: city, year, prices, timelines, reply time
+☐ Add real testimonials if available
+☐ Set up hello@motioptic.com and replace the Gmail address
+☐ Add a team or founder photo to About
+Then (site quality)
+☐ Enable server-side rendering; unique page titles, meta descriptions, share image, one H1 per page
+☐ Add a showreel to the hero, plus "See our work" and "Start a project" buttons
+☐ Rebuild the services overview cards and rename the service page section headings
+☐ Update the contact form fields; send a test enquiry
+☐ Show the FAQ on home and contact only
+☐ Alt text, accessible labels on vertical text, sentence case for paragraphs
+☐ Compress large images to WebP
+☐ Add a privacy policy and analytics
+☐ Final check on phone and desktop

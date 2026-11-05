@@ -1,0 +1,43 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/works/agencify",
+      "destination": "/works/content-army",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/antony",
+      "destination": "/works/biov8",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/zcf",
+      "destination": "/works/elvis",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/candreva",
+      "destination": "/works/duradry",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/sotto",
+      "destination": "/works/littledata",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/tesla",
+      "destination": "/works/monkeflow",
+      "statusCode": 301
+    },
+    {
+      "source": "/works/bruno",
+      "destination": "/works/markovate",
+      "statusCode": 301
+    }
+  ]
+}

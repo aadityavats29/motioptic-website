@@ -1,0 +1,32 @@
+{
+  "name": "Motioptic",
+  "email": "hyder@motioptic.com",
+  "linkedin": "https://www.linkedin.com/company/motioptic/",
+  "faqs": [
+    [
+      "How much does a project cost?",
+      "We'll send a fixed quote once we understand your project."
+    ],
+    [
+      "How long does a project take?",
+      "Timing depends on the scope. Tell us what you need and your target date so we can agree a schedule."
+    ],
+    [
+      "What do you need from us to start?",
+      "A short brief: what you do, who it's for, and any examples you like. We'll take it from there on a first call."
+    ],
+    [
+      "How many revisions are included?",
+      "We'll agree the revision rounds and any extra costs in your project quote before work begins."
+    ],
+    [
+      "Can we work together remotely?",
+      "Tell us where you're based and your time zone so we can plan how to work together."
+    ],
+    [
+      "What happens after launch?",
+      "We'll agree the source-file handover and any ongoing support as part of your project scope."
+    ]
+  ],
+  "url": "https://motioptic.com"
+}

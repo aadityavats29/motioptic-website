@@ -1,0 +1,22 @@
+{
+  "content-army": {
+    "src": "media/projects/content-army.mp4",
+    "poster": "media/covers/content-army.webp",
+    "label": "Content Army — video edit"
+  },
+  "duradry": {
+    "src": "media/projects/duradry.mp4",
+    "poster": "media/covers/duradry.webp",
+    "label": "Duradry — video edit"
+  },
+  "littledata": {
+    "src": "media/projects/littledata.mp4",
+    "poster": "media/covers/littledata.webp",
+    "label": "Littledata — show intro"
+  },
+  "monkeflow": {
+    "src": "media/projects/monkeflow.mp4",
+    "poster": "media/covers/monkeflow.webp",
+    "label": "Monkeflow — motion video"
+  }
+}
